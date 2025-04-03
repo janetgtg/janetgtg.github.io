@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giới Thiệu Chương Trình Đào Tạo Chuyên Sâu</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        /* Custom base styles */
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f7f8fa; /* Slightly off-white background */
+        }
+        /* Card styles with softer shadow and hover effect */
+        .program-card {
+            background-color: #ffffff;
+            border-radius: 0.75rem; /* More rounded corners */
+            overflow: hidden; /* Ensure content respects border radius */
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            border: 1px solid #e5e7eb; /* Subtle border */
+        }
+        .program-card:hover {
+            transform: translateY(-6px);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+        }
+        /* More sophisticated color themes */
+        /* Online Theme: Deep Indigo/Lavender */
+        .online-theme-text { color: #3730a3; } /* Indigo 800 */
+        .online-theme-icon { color: #4f46e5; } /* Indigo 600 */
+        .online-theme-bg-subtle {
+             background: linear-gradient(135deg, #eef2ff 0%, #f5f3ff 100%); /* Indigo 50 to Violet 50 */
+        }
+        .online-theme-button { background-color: #4f46e5; color: white; } /* Indigo 600 */
+        .online-theme-button:hover { background-color: #3730a3; } /* Indigo 800 */
+        .online-theme-border-accent { border-color: #6366f1; } /* Indigo 500 */
+
+        /* Offline Theme: Dark Teal/Emerald */
+        .offline-theme-text { color: #065f46; } /* Emerald 800 */
+        .offline-theme-icon { color: #059669; } /* Emerald 600 */
+        .offline-theme-bg-subtle { background-color: #ecfdf5; } /* Emerald 50 */
+        .offline-theme-button { background-color: #059669; color: white; } /* Emerald 600 */
+        .offline-theme-button:hover { background-color: #065f46; } /* Emerald 800 */
+        .offline-theme-border-accent { border-color: #10b981; } /* Emerald 500 */
+
+        /* Icon styling */
+        .icon-style {
+            width: 1.1em; /* Slightly smaller */
+            height: 1.1em;
+            display: inline-block;
+            vertical-align: -0.15em; /* Adjust vertical alignment */
+            margin-right: 0.4em;
+        }
+        /* List styling */
+        .styled-list li {
+            display: flex;
+            align-items: flex-start;
+            margin-bottom: 0.75rem; /* Adjusted margin for better spacing with descriptions */
+            font-size: 0.875rem; /* text-sm */
+            color: #374151; /* gray-700 */
+            line-height: 1.6; /* Slightly increased line-height */
+        }
+        .styled-list i {
+            flex-shrink: 0;
+            margin-top: 0.25rem; /* Align icon slightly better */
+        }
+        .styled-list span {
+            margin-left: 0.5rem;
+        }
+        /* Styling for concise list items */
+        .concise-list-item {
+            font-weight: 500;
+        }
+        /* Styling for titles within list items */
+        .list-item-title {
+             font-weight: 600; /* Semibold for titles */
+             display: block; /* Ensure title is on its own line if needed */
+             margin-bottom: 0.1rem; /* Small space below title */
+             color: #111827; /* Slightly darker title text (gray-900) */
+        }
+        /* Styling for "hoa my" content */
+        .hoa-my-content {
+             font-style: normal; /* Ensure not italic if previously applied */
+        }
+
+    </style>
+</head>
+<body class="p-6 md:p-12">
+
+    <div class="max-w-5xl mx-auto">
+
+        <div class="space-y-12"> <div class="program-card online-theme-bg-subtle">
+                <div class="p-6 md:p-8">
+                    <h2 class="text-2xl md:text-3xl font-bold online-theme-text text-center mb-2">
+                        <i data-lucide="sparkles" class="icon-style online-theme-icon"></i>
+                        360 NGÀY - HÀNH TRÌNH SỐNG PHI THƯỜNG
+                    </h2>
+                    <p class="text-center text-gray-500 italic mb-8">Khám phá và trở thành phiên bản tốt nhất của chính mình qua Zoom!</p>
+
+                    <div class="space-y-6">
+                            <div>
+                                <h3 class="text-xl font-semibold online-theme-text mb-3">
+                                    <i data-lucide="gift" class="icon-style online-theme-icon"></i>
+                                    Lợi ích khi tham gia chương trình
+                                </h3>
+                                 <ul class="styled-list">
+                                    <li>
+                                        <i data-lucide="heart" class="icon-style online-theme-icon"></i>
+                                        <span class="hoa-my-content"><strong class="list-item-title">Sức khỏe & Sắc đẹp:</strong> Nâng cao tần số rung động để bạn luôn khỏe mạnh, rạng rỡ và tràn đầy năng lượng.</span>
+                                    </li>
+                                    <li>
+                                        <i data-lucide="zap" class="icon-style online-theme-icon"></i>
+                                        <span class="hoa-my-content"><strong class="list-item-title">Tự do & Trách nhiệm:</strong> Làm chủ cuộc sống, vượt qua nỗi sợ và tự do kiến tạo vận mệnh.</span>
+                                    </li>
+                                    <li>
+                                         <i data-lucide="puzzle" class="icon-style online-theme-icon"></i>
+                                        <span class="hoa-my-content"><strong class="list-item-title">Giải quyết vấn đề:</strong> Chữa lành tổn thương, tháo gỡ nút thắt tâm lý và tìm ra giải pháp cho vấn đề của bạn.</span>
+                                    </li>
+                                    <li>
+                                         <i data-lucide="sparkles" class="icon-style online-theme-icon"></i>
+                                        <span class="hoa-my-content"><strong class="list-item-title">Chuyển hóa cảm xúc:</strong> Chuyển hóa cảm xúc tiêu cực thành tích cực, kiến tạo sự hòa hợp trong bạn và các mối quan hệ.</span>
+                                    </li>
+                                     <li>
+                                        <i data-lucide="users" class="icon-style online-theme-icon"></i>
+                                        <span class="hoa-my-content"><strong class="list-item-title">Hòa hợp & Kết nối:</strong> Thu hút những mối quan hệ tích cực, sống từ bi, bao dung và hòa hợp với thế giới xung quanh.</span>
+                                    </li>
+                                    <li>
+                                         <i data-lucide="gift" class="icon-style online-theme-icon"></i>
+                                        <span class="hoa-my-content"><strong class="list-item-title">Sứ mệnh & Yêu thương:</strong> Khám phá sứ mệnh cuộc đời, sống cân bằng, yêu thương vô điều kiện và trải nghiệm giá trị vô hạn của bản thân.</span>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div>
+                                <h3 class="text-xl font-semibold online-theme-text mb-3">
+                                    <i data-lucide="book-open-check" class="icon-style online-theme-icon"></i>
+                                    Nội dung chương trình
+                                </h3>
+                                <ul class="styled-list">
+                                    <li>
+                                        <i data-lucide="zap" class="icon-style online-theme-icon"></i>
+                                        <span class="hoa-my-content"><strong class="list-item-title">Đánh Thức Người Khổng Lồ Bên Trong:</strong> Chạm tới dòng năng lượng nguyên thủy, khai mở kho tàng trí tuệ vô biên đang ngủ yên, kiến tạo nền tảng vững chắc cho cuộc đời bạn mơ ước.</span>
+                                    </li>
+                                    <li>
+                                        <i data-lucide="trending-up" class="icon-style online-theme-icon"></i>
+                                        <span class="hoa-my-content"><strong class="list-item-title">Vũ Điệu Của Rung Động & Luật Hấp Dẫn:</strong> Tinh thông nghệ thuật nâng cao tần số năng lượng cá nhân, hòa điệu cùng vũ trụ để thu hút mọi nguồn lực thịnh vượng và an lành.</span>
+                                    </li>
+                                    <li>
+                                        <i data-lucide="brain-circuit" class="icon-style online-theme-icon"></i>
+                                        <span class="hoa-my-content"><strong class="list-item-title">Biển Lặng Tâm Trí - Vườn Hoa Cảm Xúc:</strong> Làm chủ dòng chảy suy nghĩ, chuyển hóa những đám mây cảm xúc tiêu cực thành khu vườn nội tâm an yên, rực rỡ và trí tuệ sáng suốt.</span>
+                                    </li>
+                                    <li>
+                                        <i data-lucide="heart-handshake" class="icon-style online-theme-icon"></i>
+                                        <span class="hoa-my-content"><strong class="list-item-title">Trở Về Cội Nguồn - Cất Cánh Hành Trình Phi Thường:</strong> Giải mã "Cây Đời" linh thiêng, tìm về sự hợp nhất Thân-Tâm-Trí, vững vàng cất cánh trên hành trình kiến tạo kiệt tác cuộc đời.</span>
+                                    </li>
+                                </ul>
+                                </div>
+                            <div>
+                             <h3 class="text-xl font-semibold online-theme-text mb-3">
+                                <i data-lucide="calendar-days" class="icon-style online-theme-icon"></i>
+                                Thông Tin Tham Gia
+                             </h3>
+                             <div class="text-gray-700 text-sm space-y-3">
+                                <p><strong class="online-theme-text font-medium">Hình thức:</strong> Online qua Zoom (Miễn phí).</p>
+                                <div>
+                                    <strong class="online-theme-text font-medium">Thời gian (Hàng ngày):</strong>
+                                    <ul class="list-disc list-inside ml-4 mt-1 text-gray-600">
+                                        <li>Kênh 1 (Giờ VN): 5:00 - 6:00 sáng (Ngày bắt đầu: Sẽ thông báo)</li>
+                                        <li>Kênh 2 (VN & QT): 12:00 - 1:00 trưa (Bắt đầu 15/04/2025)</li>
+                                    </ul>
+                                </div>
+                                <p><strong class="online-theme-text font-medium">Chuẩn bị:</strong> Sổ nhật ký, gương, bút màu, giấy màu, giấy A0.</p>
+                             </div>
+                             <div class="mt-8 text-center">
+                                 <a href="https://forms.gle/StxRQc3RyoVCfoer8" target="_blank" rel="noopener noreferrer" class="inline-block online-theme-button font-semibold py-3 px-8 rounded-lg transition duration-300 transform hover:scale-105 shadow-md hover:shadow-lg">
+                                     Đăng Ký Tham Gia Online
+                                 </a>
+                                 </div>
+                        </div>
+                    </div>
+                     <p class="text-center text-sm font-medium online-theme-text mt-10"> Bắt đầu hành trình 360 ngày chuyển hóa phi thường!</p>
+                </div>
+            </div>
+            <div class="program-card offline-theme-bg-subtle">
+                 <div class="p-6 md:p-8">
+                     <h2 class="text-2xl md:text-3xl font-bold offline-theme-text text-center mb-2">
+                        <i data-lucide="rocket" class="icon-style offline-theme-icon"></i>
+                        KIẾN TẠO TƯƠNG LAI - PHIÊN BẢN NÂNG TẦM 2025
+                    </h2>
+                    <p class="text-center text-gray-500 italic mb-8">Sức Khỏe & Chuyển Hóa - Hành trình trực tiếp chuyên sâu tại Hà Nội!</p>
+
+                    <div class="space-y-6">
+                            <div>
+                                <h3 class="text-xl font-semibold offline-theme-text mb-3">
+                                    <i data-lucide="gift" class="icon-style offline-theme-icon"></i>
+                                    Lợi ích khi tham gia chương trình
+                                </h3>
+                                 <ul class="styled-list">
+                                    <li>
+                                        <i data-lucide="heart" class="icon-style offline-theme-icon"></i>
+                                        <span class="hoa-my-content"><strong class="list-item-title">Sức khỏe toàn diện:</strong> Khám phá và áp dụng các phương pháp khoa học về não bộ, tâm lý học, và lối sống lành mạnh để nâng cao sức khỏe thể chất và tinh thần.</span>
+                                    </li>
+                                    <li>
+                                        <i data-lucide="zap" class="icon-style offline-theme-icon"></i>
+                                        <span class="hoa-my-content"><strong class="list-item-title">Tự do nội tâm:</strong> Làm chủ suy nghĩ, cảm xúc, và hành động, vượt qua nỗi sợ hãi, kiến tạo cuộc sống tự do.</span>
+                                    </li>
+                                    <li>
+                                        <i data-lucide="puzzle" class="icon-style offline-theme-icon"></i>
+                                        <span class="hoa-my-content"><strong class="list-item-title">Chữa lành và thức tỉnh:</strong> Thấu hiểu, chữa lành tổn thương, giải phóng tắc nghẽn tâm lý, khám phá sứ mệnh cá nhân.</span>
+                                    </li>
+                                    <li>
+                                        <i data-lucide="users" class="icon-style offline-theme-icon"></i>
+                                        <span class="hoa-my-content"><strong class="list-item-title">Kết nối sâu sắc:</strong> Xây dựng mối quan hệ hòa hợp với bản thân, gia đình, cộng đồng bằng thấu hiểu và lòng từ bi.</span>
+                                    </li>
+                                    <li>
+                                        <i data-lucide="trending-up" class="icon-style offline-theme-icon"></i>
+                                        <span class="hoa-my-content"><strong class="list-item-title">Phát triển bền vững:</strong> Áp dụng nguyên tắc truyền thống và khoa học để sống cân bằng, hạnh phúc, đóng góp cho bản thân và xã hội.</span>
+                                    </li>
+                                </ul>
+                            </div>
+                             <div>
+                                <h3 class="text-xl font-semibold offline-theme-text mb-3">
+                                    <i data-lucide="brain-cog" class="icon-style offline-theme-icon"></i>
+                                    Nội dung chương trình
+                                </h3>
+                                 <ul class="styled-list">
+                                     <li>
+                                         <i data-lucide="infinity" class="icon-style offline-theme-icon"></i>
+                                         <span class="hoa-my-content"><strong class="list-item-title">Khai Mở Suối Nguồn Tiềm Năng Vô Tận:</strong> Hành trình kết nối sâu sắc với năng lượng nguyên thủy, đánh thức và giải phóng sức mạnh trí tuệ tiềm ẩn đang chờ đợi bạn.</span>
+                                     </li>
+                                    <li>
+                                        <i data-lucide="atom" class="icon-style offline-theme-icon"></i>
+                                         <span class="hoa-my-content"><strong class="list-item-title">Giải Mã Não Bộ & Tâm Lý Học Khai Sáng:</strong> Ứng dụng những khám phá khoa học tiên tiến nhất về não bộ và tâm trí để làm chủ tư duy, kiến tạo cảm xúc tích cực và định hình tương lai.</span>
+                                    </li>
+                                    <li>
+                                        <i data-lucide="wind" class="icon-style offline-theme-icon"></i>
+                                        <span class="hoa-my-content"><strong class="list-item-title">Alchemist - Nghệ Thuật Chuyển Hóa Tâm Thức:</strong> Làm chủ quy trình giả kim thuật nội tâm, biến đổi mọi tắc nghẽn thành sức mạnh, kiến tạo bình yên vững chãi và sự minh triết rạng ngời.</span>
+                                    </li>
+                                    <li>
+                                        <i data-lucide="yin-yang" class="icon-style offline-theme-icon"></i>
+                                        <span class="hoa-my-content"><strong class="list-item-title">Hội Tụ Tinh Hoa - Sống Đời An Nhiên, Cân Bằng:</strong> Chắt lọc và thực hành những giá trị cốt lõi từ minh triết Đông Tây, xây dựng một lối sống hài hòa, từ ái và kết nối sâu sắc vạn vật.</span>
+                                    </li>
+                                    <li>
+                                        <i data-lucide="compass" class="icon-style offline-theme-icon"></i>
+                                        <span class="hoa-my-content"><strong class="list-item-title">Thắp Sáng Ngọn Hải Đăng Sứ Mệnh:</strong> Cuộc hành trình thiêng liêng khám phá tiếng gọi sâu thẳm của linh hồn, sống trọn vẹn giá trị cốt lõi và lan tỏa ánh sáng phụng sự cộng đồng.</span>
+                                    </li>
+                                </ul>
+                                 </div>
+                            <div>
+                             <h3 class="text-xl font-semibold offline-theme-text mb-3">
+                                <i data-lucide="map-pin" class="icon-style offline-theme-icon"></i>
+                                Thông Tin Tham Gia
+                             </h3>
+                              <div class="text-gray-700 text-sm space-y-3">
+                                <p><strong class="offline-theme-text font-medium">Hình thức:</strong> Đào tạo trực tiếp (Offline).</p>
+                                <p><strong class="offline-theme-text font-medium">Thời gian:</strong> 25/04/2025 - 30/04/2025.</p>
+                                <p><strong class="offline-theme-text font-medium">Địa điểm:</strong> Hà Nội (Chi tiết sẽ thông báo sau).</p>
+                                <p><strong class="offline-theme-text font-medium">Chuẩn bị:</strong> Sổ nhật ký, gương, bút màu, giấy màu, giấy A0.</p>
+                             </div>
+                             <div class="mt-8 text-center">
+                                 <a href="#register-offline" class="inline-block offline-theme-button font-semibold py-3 px-8 rounded-lg transition duration-300 transform hover:scale-105 shadow-md hover:shadow-lg">
+                                     Đăng Ký Khóa Học Offline
+                                 </a>
+                             </div>
+                        </div>
+                    </div>
+                    <p class="text-center text-sm font-medium offline-theme-text mt-10"> Kiến tạo tương lai, nâng tầm cuộc sống của bạn!</p>
+                </div>
+            </div>
+            </div> </div>
+
+    <script>
+        lucide.createIcons();
+    </script>
+
+</body>
+</html>
